@@ -1,0 +1,63 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+body {
+  background-color: #fff;
+}
+.LineChart {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+.LineChart--tooltip {
+  display: block;
+  position: absolute;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 2px;
+  font-size: 0.7em;
+  transform: translate(-50%, -100%);
+  white-space: nowrap;
+  box-shadow: 0 0 7px rgba(0,0,0,0.2);
+}
+
+
+.LineChart--axis {
+  font-size: 12px;
+  fill: #ccc;
+}
+.LineChart--label {
+  font-size: 10px;
+}
+.LineChart circle {
+  transition: 0.3s ease-out;
+}
+.LineChart circle:hover {
+  r: 8px;
+}
+.LineChart g {
+  transition: 1.5s ease-out;
+}

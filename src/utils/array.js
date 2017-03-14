@@ -1,0 +1,1 @@
+export const getArrayByLength = length => Array.from(new Array(length), (x,i) => i);
